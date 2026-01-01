@@ -1,6 +1,6 @@
 # GuestAI Quick Start Guide
 
-Increase guest satisfaction by 25% and boost repeat bookings by 40% with AI-powered personalization, sentiment analysis, and proactive service recovery. Get your first guest profile running in under 5 minutes.
+AI-powered personalization, sentiment analysis, and proactive service recovery to improve guest satisfaction and repeat bookings. Get your first guest profile running in under 5 minutes.
 
 ## Prerequisites
 

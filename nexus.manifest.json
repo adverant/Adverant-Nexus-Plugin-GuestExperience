@@ -1,0 +1,115 @@
+{
+  "name": "nexus-guestexperience",
+  "displayName": "GuestAI - Intelligent Guest Experience Platform",
+  "version": "1.0.0",
+  "description": "AI-powered guest experience management for hospitality. Personalized recommendations, sentiment analysis, service optimization, and loyalty programs.",
+  "developer": {
+    "name": "Adverant",
+    "url": "https://adverant.ai",
+    "email": "plugins@adverant.ai",
+    "verified": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adverant/Adverant-Nexus-Plugin-GuestExperience"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "guest-experience",
+    "hospitality",
+    "personalization",
+    "sentiment-analysis",
+    "loyalty",
+    "concierge"
+  ],
+  "nexus": {
+    "minVersion": "1.0.0",
+    "executionMode": "mcp_container",
+    "isolationLevel": 2,
+    "capabilities": [
+      "personalization",
+      "sentiment-analysis",
+      "recommendation-engine",
+      "service-recovery",
+      "loyalty-management",
+      "feedback-analysis"
+    ],
+    "permissions": [
+      "network:external",
+      "filesystem:temp",
+      "service:mageagent",
+      "service:graphrag"
+    ],
+    "entrypoint": "dist/index.js",
+    "healthCheck": "/health",
+    "readinessCheck": "/ready",
+    "livenessCheck": "/live"
+  },
+  "resources": {
+    "cpuMillicores": 1000,
+    "memoryMB": 2048,
+    "diskGB": 5,
+    "timeoutMs": 120000,
+    "maxConcurrentJobs": 20
+  },
+  "api": {
+    "version": "v1",
+    "basePath": "/api/v1/guest",
+    "endpoints": [
+      {
+        "method": "POST",
+        "path": "/profile",
+        "description": "Create/update guest profile"
+      },
+      {
+        "method": "GET",
+        "path": "/recommendations/:guestId",
+        "description": "Get personalized recommendations"
+      },
+      {
+        "method": "POST",
+        "path": "/feedback/analyze",
+        "description": "Analyze guest feedback"
+      },
+      {
+        "method": "GET",
+        "path": "/insights",
+        "description": "Get guest insights"
+      }
+    ]
+  },
+  "pricing": {
+    "model": "tiered",
+    "currency": "USD",
+    "tiers": [
+      {
+        "name": "starter",
+        "displayName": "Starter",
+        "priceMonthly": 9900,
+        "limits": { "guestsPerMonth": 1000 },
+        "features": ["basic-profiles", "feedback-collection"]
+      },
+      {
+        "name": "professional",
+        "displayName": "Professional",
+        "priceMonthly": 29900,
+        "limits": { "guestsPerMonth": 10000 },
+        "features": ["personalization", "sentiment-analysis", "recommendations"],
+        "popular": true
+      },
+      {
+        "name": "enterprise",
+        "displayName": "Enterprise",
+        "priceMonthly": -1,
+        "limits": { "guestsPerMonth": -1 },
+        "features": ["unlimited", "loyalty-integration", "custom-models"]
+      }
+    ]
+  },
+  "marketplace": {
+    "category": "hospitality",
+    "subcategory": "guest-management",
+    "featured": true,
+    "tags": ["guest-experience", "hospitality", "personalization", "loyalty", "concierge"]
+  }
+}

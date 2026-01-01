@@ -72,9 +72,9 @@ class PreArrivalService {
 
 ### Business Impact
 
-- **35% higher** upsell conversion
-- **4.6 average** pre-arrival email rating
-- **25% increase** in add-on revenue
+- **Higher upsell conversion** through personalization
+- **Improved pre-arrival engagement** ratings
+- **Increased add-on revenue** from targeted offers
 
 ---
 
@@ -170,9 +170,9 @@ flowchart TD
 
 ### Business Impact
 
-- **60% of issues** resolved before checkout
-- **40% reduction** in negative reviews
-- **2.5x faster** issue resolution
+- **More issues resolved** before checkout
+- **Fewer negative reviews** through proactive intervention
+- **Faster issue resolution** with real-time alerts
 
 ---
 
@@ -242,8 +242,8 @@ class AIConcierge:
 ### Business Impact
 
 - **24/7 availability** for guest questions
-- **90% query resolution** without staff intervention
-- **3x increase** in restaurant/activity bookings
+- **High query resolution rate** without staff intervention
+- **Increased restaurant/activity bookings** through instant assistance
 
 ---
 
@@ -326,9 +326,9 @@ class LoyaltyOptimizer {
 
 ### Business Impact
 
-- **45% higher** loyalty engagement
-- **30% increase** in repeat bookings
-- **2x redemption rate** for personalized rewards
+- **Higher loyalty engagement** through personalization
+- **Increased repeat bookings** with targeted rewards
+- **Better redemption rates** for personalized rewards
 
 ---
 
@@ -402,8 +402,8 @@ class FeedbackLoopService:
 
 ### Business Impact
 
-- **NPS increased** by 15 points
-- **Recurring issues** down 50%
+- **Improved NPS scores** through actionable insights
+- **Fewer recurring issues** with systematic improvements
 - **Staff training** targeted to real guest pain points
 
 ---

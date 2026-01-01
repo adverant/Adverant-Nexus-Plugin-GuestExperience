@@ -9,7 +9,7 @@
   <a href="https://github.com/adverant/Adverant-Nexus-Plugin-GuestExperience/actions"><img src="https://github.com/adverant/Adverant-Nexus-Plugin-GuestExperience/workflows/CI/badge.svg" alt="CI Status"></a>
   <a href="https://github.com/adverant/Adverant-Nexus-Plugin-GuestExperience/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
   <a href="https://marketplace.adverant.ai/plugins/guest-experience"><img src="https://img.shields.io/badge/Nexus-Marketplace-purple.svg" alt="Nexus Marketplace"></a>
-  <a href="https://discord.gg/adverant"><img src="https://img.shields.io/discord/123456789?color=7289da&label=Discord" alt="Discord"></a>
+  <a href="https://discord.gg/adverant"><img src="https://img.shields.io/badge/Discord-Community-7289da.svg" alt="Discord"></a>
 </p>
 
 <p align="center">
@@ -94,11 +94,11 @@ curl -X POST "https://api.adverant.ai/proxy/nexus-guest-experience/api/v1/chat" 
 
 ### Vacation Rental Hosts
 
-#### 1. Zero-Touch Guest Communication
-Let AI handle 90% of guest messages. From pre-booking questions to post-checkout reviews, automate the entire communication lifecycle.
+#### 1. Automated Guest Communication
+Let AI handle routine guest messages. From pre-booking questions to post-checkout reviews, automate the communication lifecycle.
 
-#### 2. Revenue Maximization
-Increase revenue per booking by 15-25% with smart upsell offers for early check-in, late checkout, and local experiences.
+#### 2. Revenue Opportunities
+Increase revenue per booking with smart upsell offers for early check-in, late checkout, and local experiences.
 
 ### Property Management Companies
 
@@ -111,11 +111,11 @@ Manage guest communications for hundreds of properties without proportionally in
 
 | Feature | Starter | Professional | Enterprise |
 |---------|---------|--------------|------------|
-| **Price** | $79/mo | $199/mo | $599/mo |
-| **Properties** | Up to 10 | Up to 50 | Unlimited |
-| **AI Messages/month** | 1,000 | 10,000 | Unlimited |
-| **Channels** | SMS, Email | + WhatsApp | + Custom |
-| **Languages** | 5 | 20 | 50+ |
+| **Price** | $99/mo | $299/mo | Custom |
+| **Guests/month** | 1,000 | 10,000 | Unlimited |
+| **Profiles** | Basic | + Personalization | Unlimited |
+| **Sentiment Analysis** | - | Yes | Yes |
+| **Custom Models** | - | - | Yes |
 
 [View on Nexus Marketplace](https://marketplace.adverant.ai/plugins/guest-experience)
 
